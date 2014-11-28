@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>图书列表页</title>
+    <link rel='stylesheet' href='/css/style.css' />
+  </head>
+  <body>
+    <div class="g-sd">
+      <ul class="m-nav">
+        <li><a href="#/books">图书</a></li>
+      </ul>
+    </div>
+    <div class="g-mn">
+      <div class="g-mnc">
+        <div class="m-view" id="view">
+        	<%- include partial/books.ejs %>
+        </div>
+      </div>
+    </div>
+    <script src="/js/bundle.js"></script>
+  </body>
+</html>

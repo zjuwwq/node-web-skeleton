@@ -1,0 +1,10 @@
+html, body, ul, li, dl, dt, dd{margin: 0;padding: 0;}
+li{list-style: none;}
+body{font:14px/1.6 arial;}
+html, body, .g-sd, .g-mn, .g-mnc{height: 100%;}
+.g-sd{position: relative;float: left;width: 200px;height: 100%;margin-right: -200px;background-color: #ccc;}
+.g-mn{float: right;width: 100%;height: 100%;}
+.g-mnc{margin-left: 220px;height: 100%;background-color: #eee;}
+.m-nav, .m-view{padding: 20px;}
+table{border-collapse: collapse;}
+th, td{padding: 10px;border: 1px solid #aaa;}
