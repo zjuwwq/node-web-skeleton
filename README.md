@@ -12,3 +12,4 @@ a node web skeleton which share code between server and client
 # Testing
 - run `gulp`
 - run `npm start`
+access http://localhost:3000 in browser
