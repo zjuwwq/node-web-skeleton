@@ -18,6 +18,8 @@
   "devDependencies": {
     "browserify": "^6.3.3",
     "browserify-ejs": "0.0.2",
+    "browserify-html2string": "^1.0.7",
+    "browserify-tostring": "^1.0.0",
     "gulp": "^3.8.10",
     "jquery": "^2.1.1",
     "regularjs": "^0.2.13",
