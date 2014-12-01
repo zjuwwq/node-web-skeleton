@@ -38,15 +38,6 @@ router.get('/', function() {
     this.res.render('index');
 });
 
-router.get('/books', function(){
-    bookController.list(this.req, this.res);
-});
-
-router.get('/books/:id', function(){
-    this.req.query.id = /\/books\/([^\/]+)/.exec(this.req.url)[1];
-    bookController.get(this.req, this.res);
-});
-
 router.get('/api/books', function() {
     var req = this.req;
     var res = this.res;
