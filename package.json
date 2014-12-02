@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./server/app.js"
+    "start": "node ./dist/server/app.js"
   },
   "dependencies": {
     "body-parser": "~1.8.1",
@@ -18,9 +18,13 @@
   "devDependencies": {
     "browserify": "^6.3.3",
     "browserify-ejs": "0.0.2",
-    "browserify-html2string": "^1.0.7",
-    "browserify-tostring": "^1.0.0",
+    "browserify-html2string": "^1.0.9",
     "gulp": "^3.8.10",
+    "gulp-clean": "^0.3.1",
+    "gulp-ignore": "^1.2.1",
+    "gulp-rename": "^1.2.0",
+    "gulp-replace": "^0.5.0",
+    "gulp-rimraf": "^0.1.1",
     "jquery": "^2.1.1",
     "regularjs": "^0.2.13",
     "reqwest": "^1.1.5",
